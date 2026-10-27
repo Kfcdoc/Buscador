@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Buscador de palabras</title>
+</head>
+<body>
+  <div style="text-align: center">
+    <h1>Buscador de palabras</h1>
+
+    <textarea id="texto" rows="8" cols="60" placeholder="Escribe o pega tu texto aquí"></textarea>
+    <br><br>
+
+    <input id="palabra" type="text" placeholder="Palabra o carácter a buscar">
+    <br><br>
+
+    <input id="nueva" type="text" placeholder="Palabra nueva (para reemplazar)">
+    <br><br>
+
+    <button id="buscar">Buscar</button>
+    <button id="reemplazar">Reemplazar todo</button>
+    <button id="limpiar">Limpiar</button>
+
+    <h3>Texto procesado</h3>
+    <div id="resultado" style="white-space: pre-wrap"></div>
+
+    <h3>Veces que aparece: <span id="total">0</span></h3>
+  </div>
+</body>
+</html>
